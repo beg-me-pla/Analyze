@@ -1,0 +1,27 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Decompiler will be improved VERY SOON!
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/brNTY8nX8t)
+-- Decompiled on 2025-07-23 23:31:22
+-- Luau version 6, Types version 3
+-- Time taken: 0.000670 seconds
+
+return {
+	Name = "setcosmeticstat";
+	Aliases = {"scs"};
+	Description = "Sets the cosmetic stats to provided players.";
+	Group = "GameCommands";
+	Args = {{
+		Type = "players";
+		Name = "to";
+		Description = "The player(s) to set stat.";
+	}, {
+		Type = "cosmeticmutablestat";
+		Name = "Stat Name";
+		Description = "Stat to set";
+	}, {
+		Type = "number";
+		Name = "Value";
+		Description = "Value to Set";
+	}};
+}
